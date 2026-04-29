@@ -1,0 +1,176 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IKY STORE LIVE PROMO</title>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #020617;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    /* VIDEO BACKGROUND */
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+      filter: brightness(0.7);
+    }
+
+    .overlay {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(2,6,23,0.6));
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 550px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(30,41,59,0.35);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 0 15px rgba(56,189,248,0.15);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 40px rgba(56,189,248,0.5);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg,#38bdf8,#22c55e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    p {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .price {
+      color: #22c55e;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .btn {
+      display: block;
+      text-align: center;
+      background: linear-gradient(90deg,#22c55e,#16a34a);
+      color: black;
+      padding: 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+      box-shadow: 0 0 20px rgba(34,197,94,0.5);
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(34,197,94,0.9);
+    }
+
+    .live-badge {
+      display: inline-block;
+      background: red;
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      margin-bottom: 10px;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%,100% {opacity: 1;}
+      50% {opacity: 0.3;}
+    }
+
+  </style></head>
+<body>  <!-- VIDEO BACKGROUND -->  <video class="video-bg" autoplay muted loop playsinline>
+    <!-- fix mobile autoplay & visibility -->
+    <source src="https://cdn.yupra.my.id/yp/rkj1c6jo.mp4" type="video/mp4">
+  </video>  <div class="overlay"></div>  <div class="container"><div class="card">
+  <div class="live-badge">● LIVE PROMO</div>
+  <h1>IKY STORE</h1>
+  <p>Layanan bot & panel premium harga santai 🚀</p>
+</div>
+
+<div class="card">
+  <h2>🖥 PANEL PTERODACTYL</h2>
+  <p>Mulai dari <span class="price">2K</span></p>
+  <ul>
+    <li>⚡ Server super cepat</li>
+    <li>🔥 Online 24 jam</li>
+    <li>🤖 Cocok untuk bot WA</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>🤖 SEWA BOT</h2>
+  <ul>
+    <li>1 Minggu - <span class="price">10K</span></li>
+    <li>1 Bulan - <span class="price">18K</span></li>
+    <li>1 Tahun - <span class="price">50K</span></li>
+    <li>Permanen - <span class="price">100K</span></li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>🎁 BONUS</h2>
+  <ul>
+    <li>🎉 Diskon spesial</li>
+    <li>⚡ Fast respon</li>
+    <li>🎊 Reward pelanggan</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h2>ORDER SEKARANG</h2>
+  <p>WA: 6283171690095</p>
+  <a class="btn" href="https://wa.me/6283171690095">Chat Sekarang 🚀</a>
+</div>
+
+  </div></body>
+</html>
